@@ -12,7 +12,7 @@ Snippets that contain defined inputs can be maneuvered through by simply pressin
 
 Hidden Workflow:
 
-![Imagr - Snippet](http://github.com/erikng/imagr_snippets/gifs/imagr_snippets.gif)
+![Imagr - Snippet](https://github.com/erikng/imagr-snippets/blob/master/gifs/imagr_snippets.gif)
 
 
 Feedback and Pull Requests are appreciated.
