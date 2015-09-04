@@ -1,4 +1,10 @@
 '.text.xml.plist':
+  'Imagr - Base':
+    'prefix': 'imagr_base'
+    'body': '<?xml version="1.0" encoding="UTF-8"?>\n<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">\n<plist version="1.0">\n<dict>\n\t<key>password</key>\n\t<string>$1</string>\n\t<key>workflows</key>\n\t<array>\n\t\t$2\n\t</array>\n\t</dict>\n</plist>'
+  'Imagr - Workflow Base':
+    'prefix': 'imagr_wbase'
+    'body': '<dict>\n\t\t\t<key>name</key>\n\t\t\t<string>$1</string>\n\t\t\t<key>description</key>\n\t\t\t<string>$2</string>\n\t\t\t<key>components</key>\n\t\t\t<array>\n\t\t\t\t$3\n\t\t\t</array>\n\t\t</dict>'    
   'Imagr - Computer Name - End User Input':
     'prefix': 'imagr_inputcomputername'
     'body': '<dict>\n\t<key>type</key>\n\t<string>computer_name</string>\n</dict>'
