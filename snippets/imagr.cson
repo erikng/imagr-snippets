@@ -1,0 +1,55 @@
+'.text.xml.plist':
+  'Imagr - Computer Name - End User Input':
+    'prefix': 'imagr_inputcomputername'
+    'body': '<dict>\n\t<key>type</key>\n\t<string>computer_name</string>\n</dict>'
+  'Imagr - Computer Name - Serial':
+    'prefix': 'imagr_computernameserial'
+    'body': '<dict>\n\t<key>type</key>\n\t<string>computer_name</string>\n\t<key>use_serial</key>\n\t<true/>\n</dict>'
+  'Imagr - Computer Name - Auto Serial':
+    'prefix': 'imagr_autocomputernameserial'
+    'body': '<dict>\n\t<key>type</key>\n\t<string>computer_name</string>\n\t<key>use_serial</key>\n\t<true/>\n\t<key>auto</key>\n\t<true/>\n</dict>'
+  'Imagr - Computer Name - Auto Previous':
+    'prefix': 'imagr_autocomputerprevious'
+    'body': '<dict>\n\t<key>type</key>\n\t<string>computer_name</string>\n\t<key>auto</key>\n\t<true/>\n</dict>'
+  'Imagr - Disk Image - From URL':
+    'prefix': 'imagr_diskimage'
+    'body': '<dict>\n\t<key>type</key>\n\t<string>image</string>\n\t<key>url</key>\n\t<string>$1</string>\n</dict>'
+  'Imagr - Embedded Script - First Boot False':
+    'prefix': 'imagr_fbfscript'
+    'body': '<dict>\n\t<key>type</key>\n\t<string>script</string>\n\t<key>content</key>\n\t<string>$1</string>\n\t<key>first_boot</key>\n\t<false/>\n</dict>'
+  'Imagr - Embedded Script - First Boot True':
+    'prefix': 'imagr_fbtscript'
+    'body': '<dict>\n\t<key>type</key>\n\t<string>script</string>\n\t<key>content</key>\n\t<string>$1</string>\n\t<key>first_boot</key>\n\t<true/>\n</dict>'
+  'Imagr - Erase Volume - Journaled HFS+':
+    'prefix': 'imagr_erasevolumejhfs'
+    'body': '<dict>\n\t<key>type</key>\n\t<string>eraseVolume</string>\n\t<key>name</key>\n\t<string>$1</string>\n\t<key>format</key>\n\t<string>Journaled HFS+</string>\n</dict>'
+  'Imagr - Erase Volume - User Input':
+    'prefix': 'imagr_erasevolumeui'
+    'body': '<dict>\n\t<key>type</key>\n\t<string>eraseVolume</string>\n\t<key>name</key>\n\t<string>$1</string>\n\t<key>format</key>\n\t<string>$2</string>\n</dict>'
+  'Imagr - Embedded Workflow':
+    'prefix': 'imagr_embeddedworkflow'
+    'body': '<dict>\n\t<key>type</key>\n\t<string>included_workflow</string>\n\t<key>name</key>\n\t<string>$1</string>\n</dict>'
+  'Imagr - Hidden Workflow':
+    'prefix': 'imagr_workflowhidden'
+    'body': '<key>hidden</key>\n<true/>'
+  'Imagr - Packages - First Boot False':
+    'prefix': 'imagr_fbfpackage'
+    'body': '<dict>\n\t<key>type</key>\n\t<string>package</string>\n\t<key>url</key>\n\t<string>$1</string>\n\t<key>first_boot</key>\n\t<false/>\n</dict>'
+  'Imagr - Packages - First Boot True':
+    'prefix': 'imagr_fbtpackage'
+    'body': '<dict>\n\t<key>type</key>\n\t<string>package</string>\n\t<key>url</key>\n\t<string>$1</string>\n\t<key>first_boot</key>\n\t<true/>\n</dict>'
+  'Imagr - Partition - User Input':
+    'prefix': 'imagr_partitionui'
+    'body': '<dict>\n\t<key>type</key>\n\t<string>partition</string>\n\t<key>map</key>\n\t<string>$1</string>\n\t<array>\n\t\t<dict>\n\t\t\t<key>format_type</key>\n\t\t\t<string>$2</string>\n\t\t\t<key>name</key>\n\t\t\t<string>$3</string>\n\t\t\t<key>size</key>\n\t\t\t<string>$4</string>\n\t\t\t<key>target</key>\n\t\t\t<true/>\n\t\t</dict>\n\t\t<dict>\n\t\t\t<key>format_type</key>\n\t\t\t<string>$5</string>\n\t\t\t<key>name</key>\n\t\t\t<string>$6</string>\n\t\t\t<key>size</key>\n\t\t\t<string>$7</string>\n\t\t</dict>\n\t</array>\n</dict>'
+  'Imagr - Restart Action':
+    'prefix': 'imagr_restartaction'
+    'body': '<key>restart_action</key>\n<string>$1</string>'
+  'Imagr - Startup Disk False':
+    'prefix': 'imagr_startupdiskfalse'
+    'body': '<key>bless_target</key>\n<false/>'
+  'Imagr - URL Script - First Boot False':
+    'prefix': 'imagr_fbfurlscript'
+    'body': '<dict>\n\t<key>type</key>\n\t<string>script</string>\n\t<key>url</key>\n\t<string>$1</string>\n\t<key>first_boot</key>\n\t<false/>\n</dict>'
+  'Imagr - URL Script - First Boot True':
+    'prefix': 'imagr_fbturlscript'
+    'body': '<dict>\n\t<key>type</key>\n\t<string>script</string>\n\t<key>url</key>\n\t<string>$1</string>\n\t<key>first_boot</key>\n\t<true/>\n</dict>'

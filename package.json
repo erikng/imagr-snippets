@@ -1,0 +1,26 @@
+{
+  "name": "imagr-snippets",
+  "author": {
+    "name": "erikng"
+  },
+  "main": "./lib/imagr-snippets",
+  "version": "0.1.0",
+  "description": "Imagr Snippets for Atom",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/erikng/imagr-snippets"
+  },
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "dependencies": {},
+  "keywords": [
+    "imagr",
+    "snippet"
+  ],
+  "bugs": {
+    "url": "https://github.com/erikng/imagr-snippets/issues"
+  },
+  "homepage": "https://github.com/erikng/imagr-snippets"
+}
