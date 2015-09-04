@@ -22,6 +22,6 @@ Packages - First Boot True:
 
 Erase Volume:
 
-![Imagr - Erase Volume - Journaled HFS+](http://github.com/erikng/imagr_snippers/ev.gif
+![Imagr - Erase Volume - Journaled HFS+](http://github.com/erikng/imagr_snippers/ev.gif)
 
 Feedback and Pull Requests are appreciated.
