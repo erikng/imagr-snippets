@@ -8,20 +8,11 @@ All snippets are prefixed with "imagr_" to avoid any potential conflicts with ot
 
 Snippets that contain defined inputs can be maneuvered through by simply pressing the tab key.
 
-# Non Input Examples
+# Example
 
 Hidden Workflow:
 
-![Imagr - Hidden Workflow](http://github.com/erikng/imagr_snippers/hw.gif)
+![Imagr - Snippet](http://github.com/erikng/imagr_snippets/gifs/imagr_snippets.gif)
 
-# Input Examples
-
-Packages - First Boot True:
-
-![Imagr - Packages - First Boot True](http://github.com/erikng/imagr_snippets/pfbt.gif)
-
-Erase Volume:
-
-![Imagr - Erase Volume - Journaled HFS+](http://github.com/erikng/imagr_snippers/ev.gif)
 
 Feedback and Pull Requests are appreciated.
